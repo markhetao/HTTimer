@@ -1,0 +1,6 @@
+framework module HTTimer {
+  umbrella header "HTTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

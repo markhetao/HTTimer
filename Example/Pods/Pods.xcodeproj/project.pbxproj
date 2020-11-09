@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001D5149249355C4C5B90BF3A8F72806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		064DE2E1C8882AC37F08F617A9EC9C8F /* Pods-HTTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6513907CC2C035E4EA57481FD69852 /* Pods-HTTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E7128F91079AF3549E2A90ED36028BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		62399C8E13861F08431490D6C16AD76F /* Pods-HTTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FF3007ABDFC790845E943D875290E /* Pods-HTTimer_Tests-dummy.m */; };
+		6EEDC92ECE053BCDA4336AE5C6F6430C /* Pods-HTTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FD2D195AC651E668E8485AFD58F72A /* Pods-HTTimer_Example-dummy.m */; };
+		73B90849610206579970E62D3576CDB4 /* HTTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDBEA14E9D87A574A380D76204E913C /* HTTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80AF8D8A450E7741EABB4DF3C12C43B9 /* HTTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01568831AC30959CC1B5E61F6E67F78B /* HTTimer-dummy.m */; };
+		9E87B507AB9C0BCC2DC9226990BCC233 /* Pods-HTTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C81ECE9E740AF9B6F25428723A4DDED5 /* Pods-HTTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B072B4C131CB058BCE6D46DC01973794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E20D90A6DAFC2533FDBA636889878D99 /* HTTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFD1C56DF3EC41F9810A4E1E50B399A /* HTTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFAAAEB75775E0201723E7C4893D0C65 /* HTTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A434D48D6AE9E1398171DFC53DC34EB3 /* HTTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ADEC8B988FCAEF83AF22CAEAAFC9D6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449821DE66F57921D1AE215B89B1F098;
+			remoteInfo = HTTimer;
+		};
+		C3DB140A12BEE7D4B3BCBE9FA9C6722B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDADEA33BBEC33B9C8018F8AA90A4C3A;
+			remoteInfo = "Pods-HTTimer_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01568831AC30959CC1B5E61F6E67F78B /* HTTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTimer-dummy.m"; sourceTree = "<group>"; };
+		0B87E9B4E841DBF45AB4B2A4AF842172 /* Pods-HTTimer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTTimer_Tests-Info.plist"; sourceTree = "<group>"; };
+		1B974FFD2AE8BF7D8B18845DC78B129D /* HTTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTTimer.framework; path = HTTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FD2D195AC651E668E8485AFD58F72A /* Pods-HTTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTTimer_Example-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32A9FE5951D9DCC8A3F98F3130497738 /* Pods-HTTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		354E612DF75E82FD2924088A1EB2D698 /* HTTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HTTimer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		41A23FD9C2DEF12010E90676018AD0EE /* Pods_HTTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTTimer_Tests.framework; path = "Pods-HTTimer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44163AA244F26AACB70B0D3B41FCF7D5 /* Pods-HTTimer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTTimer_Example-Info.plist"; sourceTree = "<group>"; };
+		45589B641A6AFFEDD96B955B5558DF1A /* HTTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTTimer.debug.xcconfig; sourceTree = "<group>"; };
+		4EDA31E412BEEB40FB8495D0B802165C /* Pods-HTTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		531D6DFFC90593DEFD744D0687868612 /* Pods-HTTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HTTimer_Tests.modulemap"; sourceTree = "<group>"; };
+		547ACD9CF86141F9AEAB14DF8C31676C /* HTTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HTTimer-Info.plist"; sourceTree = "<group>"; };
+		5689D1833B5765313FF35DA4A687C4C4 /* Pods-HTTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		578319D104DF4CF538AA8B0DB4FA6273 /* Pods-HTTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HTTimer_Example.modulemap"; sourceTree = "<group>"; };
+		5CCD3853C9664EF81331CEFB002DA4F6 /* Pods-HTTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5D7A3EA13F6CD0908B3F117BA887451A /* Pods-HTTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		65B58CC380FDC7135706F252F17AF8EE /* HTTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTimer-prefix.pch"; sourceTree = "<group>"; };
+		6D347A5432D65161D15A1A2DB02641A3 /* Pods-HTTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7524D0CBB1879E6E177EE2B7FF0505D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9118E72E8FD6BCC83B121D59E154853C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FDBEA14E9D87A574A380D76204E913C /* HTTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTimer.h; path = HTTimer/Classes/HTTimer.h; sourceTree = "<group>"; };
+		A434D48D6AE9E1398171DFC53DC34EB3 /* HTTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTimer.m; path = HTTimer/Classes/HTTimer.m; sourceTree = "<group>"; };
+		AC6513907CC2C035E4EA57481FD69852 /* Pods-HTTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTTimer_Example-umbrella.h"; sourceTree = "<group>"; };
+		AE3FF3007ABDFC790845E943D875290E /* Pods-HTTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTTimer_Tests-dummy.m"; sourceTree = "<group>"; };
+		BAF83F892019F7F1BB669E995EBC6E12 /* Pods_HTTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTTimer_Example.framework; path = "Pods-HTTimer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7B165CDC317D2320AB166ADABC1877 /* HTTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTTimer.release.xcconfig; sourceTree = "<group>"; };
+		BDA6ED3549F9BDA3E49DE777ABC06DA2 /* HTTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTTimer.modulemap; sourceTree = "<group>"; };
+		BDFD1C56DF3EC41F9810A4E1E50B399A /* HTTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTimer-umbrella.h"; sourceTree = "<group>"; };
+		C81ECE9E740AF9B6F25428723A4DDED5 /* Pods-HTTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D104A4AE9C8DD637BDDCA82710A319B5 /* Pods-HTTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E39C7BB86A9F4823F907D266E3E3E082 /* Pods-HTTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED12883AF0296EF78B23DDFA1EAA638C /* Pods-HTTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0568A28BB23295BF73052652B95BD433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001D5149249355C4C5B90BF3A8F72806 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4717585FA5169DCDC68E2B3391BFF8A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B072B4C131CB058BCE6D46DC01973794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6A3D90B541B5B4A6776FB86C7D6015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7128F91079AF3549E2A90ED36028BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224EFEC34926544FE6C1EB7247D0C6B8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				354E612DF75E82FD2924088A1EB2D698 /* HTTimer.podspec */,
+				7524D0CBB1879E6E177EE2B7FF0505D1 /* LICENSE */,
+				9118E72E8FD6BCC83B121D59E154853C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4E2E7EE51DFB707A91F1D3455FE10B11 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8911008BC2F3CD5105927EA08050DCFB /* HTTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		790596D8267B3DB3BF6A5FD6A8EB4D3E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA67B974D6F9EE13301196C185D21D /* Pods-HTTimer_Example */,
+				FF44AADED20F7BA220A8253F1D9D684A /* Pods-HTTimer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8911008BC2F3CD5105927EA08050DCFB /* HTTimer */ = {
+			isa = PBXGroup;
+			children = (
+				9FDBEA14E9D87A574A380D76204E913C /* HTTimer.h */,
+				A434D48D6AE9E1398171DFC53DC34EB3 /* HTTimer.m */,
+				224EFEC34926544FE6C1EB7247D0C6B8 /* Pod */,
+				915174F19332277538C0800B48B5628F /* Support Files */,
+			);
+			name = HTTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		915174F19332277538C0800B48B5628F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDA6ED3549F9BDA3E49DE777ABC06DA2 /* HTTimer.modulemap */,
+				01568831AC30959CC1B5E61F6E67F78B /* HTTimer-dummy.m */,
+				547ACD9CF86141F9AEAB14DF8C31676C /* HTTimer-Info.plist */,
+				65B58CC380FDC7135706F252F17AF8EE /* HTTimer-prefix.pch */,
+				BDFD1C56DF3EC41F9810A4E1E50B399A /* HTTimer-umbrella.h */,
+				45589B641A6AFFEDD96B955B5558DF1A /* HTTimer.debug.xcconfig */,
+				BB7B165CDC317D2320AB166ADABC1877 /* HTTimer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HTTimer";
+			sourceTree = "<group>";
+		};
+		981BC5D87DE20E503FE7EE2A8EAF9735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B974FFD2AE8BF7D8B18845DC78B129D /* HTTimer.framework */,
+				BAF83F892019F7F1BB669E995EBC6E12 /* Pods_HTTimer_Example.framework */,
+				41A23FD9C2DEF12010E90676018AD0EE /* Pods_HTTimer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADEA67B974D6F9EE13301196C185D21D /* Pods-HTTimer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				578319D104DF4CF538AA8B0DB4FA6273 /* Pods-HTTimer_Example.modulemap */,
+				E39C7BB86A9F4823F907D266E3E3E082 /* Pods-HTTimer_Example-acknowledgements.markdown */,
+				32A9FE5951D9DCC8A3F98F3130497738 /* Pods-HTTimer_Example-acknowledgements.plist */,
+				26FD2D195AC651E668E8485AFD58F72A /* Pods-HTTimer_Example-dummy.m */,
+				5D7A3EA13F6CD0908B3F117BA887451A /* Pods-HTTimer_Example-frameworks.sh */,
+				44163AA244F26AACB70B0D3B41FCF7D5 /* Pods-HTTimer_Example-Info.plist */,
+				AC6513907CC2C035E4EA57481FD69852 /* Pods-HTTimer_Example-umbrella.h */,
+				ED12883AF0296EF78B23DDFA1EAA638C /* Pods-HTTimer_Example.debug.xcconfig */,
+				5689D1833B5765313FF35DA4A687C4C4 /* Pods-HTTimer_Example.release.xcconfig */,
+			);
+			name = "Pods-HTTimer_Example";
+			path = "Target Support Files/Pods-HTTimer_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4E2E7EE51DFB707A91F1D3455FE10B11 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				981BC5D87DE20E503FE7EE2A8EAF9735 /* Products */,
+				790596D8267B3DB3BF6A5FD6A8EB4D3E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF44AADED20F7BA220A8253F1D9D684A /* Pods-HTTimer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				531D6DFFC90593DEFD744D0687868612 /* Pods-HTTimer_Tests.modulemap */,
+				4EDA31E412BEEB40FB8495D0B802165C /* Pods-HTTimer_Tests-acknowledgements.markdown */,
+				D104A4AE9C8DD637BDDCA82710A319B5 /* Pods-HTTimer_Tests-acknowledgements.plist */,
+				AE3FF3007ABDFC790845E943D875290E /* Pods-HTTimer_Tests-dummy.m */,
+				0B87E9B4E841DBF45AB4B2A4AF842172 /* Pods-HTTimer_Tests-Info.plist */,
+				C81ECE9E740AF9B6F25428723A4DDED5 /* Pods-HTTimer_Tests-umbrella.h */,
+				6D347A5432D65161D15A1A2DB02641A3 /* Pods-HTTimer_Tests.debug.xcconfig */,
+				5CCD3853C9664EF81331CEFB002DA4F6 /* Pods-HTTimer_Tests.release.xcconfig */,
+			);
+			name = "Pods-HTTimer_Tests";
+			path = "Target Support Files/Pods-HTTimer_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D35840C588A7C9668C6076962579BF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20D90A6DAFC2533FDBA636889878D99 /* HTTimer-umbrella.h in Headers */,
+				73B90849610206579970E62D3576CDB4 /* HTTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F14046D909C38B7964EAA37CE738B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E87B507AB9C0BCC2DC9226990BCC233 /* Pods-HTTimer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42D614E73E1474352DA91792BD9A4BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064DE2E1C8882AC37F08F617A9EC9C8F /* Pods-HTTimer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		449821DE66F57921D1AE215B89B1F098 /* HTTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1CA9FCA46278EC47D942D3D3A4FC199 /* Build configuration list for PBXNativeTarget "HTTimer" */;
+			buildPhases = (
+				7D35840C588A7C9668C6076962579BF6 /* Headers */,
+				51957F6D375D07D687776D52DD3275A0 /* Sources */,
+				0568A28BB23295BF73052652B95BD433 /* Frameworks */,
+				971B869C826CAE67F2322B0C8D83C7A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTTimer;
+			productName = HTTimer;
+			productReference = 1B974FFD2AE8BF7D8B18845DC78B129D /* HTTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D50E99DBC43BEB722CBFE94791ABDFD1 /* Pods-HTTimer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6230C9128BDA3B02EB6A31FAAC8C31D /* Build configuration list for PBXNativeTarget "Pods-HTTimer_Tests" */;
+			buildPhases = (
+				95F14046D909C38B7964EAA37CE738B2 /* Headers */,
+				73A1CA9C38EF4DBBC80FD217C39BE639 /* Sources */,
+				6B6A3D90B541B5B4A6776FB86C7D6015 /* Frameworks */,
+				78A2CE4E7A812E0B321F401BABF1C7BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDCB85CA0C7BD03D085E888E732E7106 /* PBXTargetDependency */,
+			);
+			name = "Pods-HTTimer_Tests";
+			productName = "Pods-HTTimer_Tests";
+			productReference = 41A23FD9C2DEF12010E90676018AD0EE /* Pods_HTTimer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDADEA33BBEC33B9C8018F8AA90A4C3A /* Pods-HTTimer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42562EF7BDDAE2C9E15457AD4A5C77CA /* Build configuration list for PBXNativeTarget "Pods-HTTimer_Example" */;
+			buildPhases = (
+				E42D614E73E1474352DA91792BD9A4BC /* Headers */,
+				0B72B9E42902656C36E19A1F4FC3BD97 /* Sources */,
+				4717585FA5169DCDC68E2B3391BFF8A8 /* Frameworks */,
+				9EF58DBB4A27A9EDAF80B5467E1D7EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8394D5AC80BD2CC255282683B25E306 /* PBXTargetDependency */,
+			);
+			name = "Pods-HTTimer_Example";
+			productName = "Pods-HTTimer_Example";
+			productReference = BAF83F892019F7F1BB669E995EBC6E12 /* Pods_HTTimer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 981BC5D87DE20E503FE7EE2A8EAF9735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				449821DE66F57921D1AE215B89B1F098 /* HTTimer */,
+				DDADEA33BBEC33B9C8018F8AA90A4C3A /* Pods-HTTimer_Example */,
+				D50E99DBC43BEB722CBFE94791ABDFD1 /* Pods-HTTimer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78A2CE4E7A812E0B321F401BABF1C7BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971B869C826CAE67F2322B0C8D83C7A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF58DBB4A27A9EDAF80B5467E1D7EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B72B9E42902656C36E19A1F4FC3BD97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EEDC92ECE053BCDA4336AE5C6F6430C /* Pods-HTTimer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51957F6D375D07D687776D52DD3275A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AF8D8A450E7741EABB4DF3C12C43B9 /* HTTimer-dummy.m in Sources */,
+				FFAAAEB75775E0201723E7C4893D0C65 /* HTTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A1CA9C38EF4DBBC80FD217C39BE639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62399C8E13861F08431490D6C16AD76F /* Pods-HTTimer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8394D5AC80BD2CC255282683B25E306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTTimer;
+			target = 449821DE66F57921D1AE215B89B1F098 /* HTTimer */;
+			targetProxy = 5ADEC8B988FCAEF83AF22CAEAAFC9D6F /* PBXContainerItemProxy */;
+		};
+		CDCB85CA0C7BD03D085E888E732E7106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HTTimer_Example";
+			target = DDADEA33BBEC33B9C8018F8AA90A4C3A /* Pods-HTTimer_Example */;
+			targetProxy = C3DB140A12BEE7D4B3BCBE9FA9C6722B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D1C7181556788148BCEC7A6E38EA464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5689D1833B5765313FF35DA4A687C4C4 /* Pods-HTTimer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HTTimer_Example/Pods-HTTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTTimer_Example/Pods-HTTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		111B5E9DC156A97C4C8865BA0F29439F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7B165CDC317D2320AB166ADABC1877 /* HTTimer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTTimer/HTTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTTimer/HTTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTTimer/HTTimer.modulemap";
+				PRODUCT_MODULE_NAME = HTTimer;
+				PRODUCT_NAME = HTTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3BCDA39B278DE230E82E9D0B54A903BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D347A5432D65161D15A1A2DB02641A3 /* Pods-HTTimer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HTTimer_Tests/Pods-HTTimer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTTimer_Tests/Pods-HTTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		63635D5610411EE709B98DF178460003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED12883AF0296EF78B23DDFA1EAA638C /* Pods-HTTimer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HTTimer_Example/Pods-HTTimer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTTimer_Example/Pods-HTTimer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CD6771B2F4DCBF5BF3C110CBEF5AE04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45589B641A6AFFEDD96B955B5558DF1A /* HTTimer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HTTimer/HTTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTTimer/HTTimer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTTimer/HTTimer.modulemap";
+				PRODUCT_MODULE_NAME = HTTimer;
+				PRODUCT_NAME = HTTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD8E8F630B8A649BB41FC23B114C263C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CCD3853C9664EF81331CEFB002DA4F6 /* Pods-HTTimer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HTTimer_Tests/Pods-HTTimer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTTimer_Tests/Pods-HTTimer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42562EF7BDDAE2C9E15457AD4A5C77CA /* Build configuration list for PBXNativeTarget "Pods-HTTimer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63635D5610411EE709B98DF178460003 /* Debug */,
+				0D1C7181556788148BCEC7A6E38EA464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1CA9FCA46278EC47D942D3D3A4FC199 /* Build configuration list for PBXNativeTarget "HTTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6771B2F4DCBF5BF3C110CBEF5AE04C /* Debug */,
+				111B5E9DC156A97C4C8865BA0F29439F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6230C9128BDA3B02EB6A31FAAC8C31D /* Build configuration list for PBXNativeTarget "Pods-HTTimer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BCDA39B278DE230E82E9D0B54A903BD /* Debug */,
+				FD8E8F630B8A649BB41FC23B114C263C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

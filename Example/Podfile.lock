@@ -1,0 +1,16 @@
+PODS:
+  - HTTimer (0.1.0)
+
+DEPENDENCIES:
+  - HTTimer (from `../`)
+
+EXTERNAL SOURCES:
+  HTTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HTTimer: 8add4b31c699acd78f932a762d7cc8377c90b90b
+
+PODFILE CHECKSUM: a1c7a9dc689667ee7fa5350a9272ce051ae44cdb
+
+COCOAPODS: 1.9.3
